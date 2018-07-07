@@ -37,6 +37,5 @@ INCLUDE ~MilitiaOfficer/Components/MilitiaOfficer_Kit.tpa~
 //__________________________________________________________________________________
 
 BEGIN @2
-REQUIRE_PREDICATE GAME_IS ~bgee eet~ @3
-REQUIRE_COMPONENT ~RAMili.2da~ ~0~ @4
+REQUIRE_PREDICATE ((GAME_IS ~bgee eet~) AND (FILE_EXISTS_IN_GAME ~RAMili.2da~)) @3
 INCLUDE  ~MilitiaOfficer/Components/Khalid_The_MilitiaOfficer.tpa~

@@ -1,0 +1,42 @@
+BACKUP ~MilitiaOfficer/Backup~
+AUTHOR ~Raduziel~
+VERSION ~1.6~
+
+ALWAYS
+
+	INCLUDE ~%MOD_FOLDER%/Lib/fl#add_kit_ee.tpa~
+  
+END
+
+ASK_EVERY_COMPONENT
+
+LANGUAGE ~English~
+		 ~Bodyguard/Tra/English~
+		 ~Bodyguard/Tra/English/setup.tra~
+		 ~Bodyguard/Tra/English/MilitiaOfficer.tra~
+LANGUAGE ~Francais (traduction: Gwendolyne)~
+         ~French~
+		 ~Bodyguard/Tra/French/setup.tra~
+		 ~Bodyguard/Tra/French/MilitiaOfficer.tra~
+
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+//
+//					 MILITIA OFFICER KIT (IWDEE, EET, BGEE and BG2EE)
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+
+BEGIN @1
+INCLUDE ~Bodyguard/Components/MilitiaOfficer_Kit.tpa~
+
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+//
+//				     KHALID, THE MILITIA OFFICER (BGEE and EET only)
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+
+BEGIN @2
+REQUIRE_PREDICATE GAME_IS ~bgee eet~ @3
+REQUIRE_COMPONENT ~Bodyguard.tp2~ ~0~ @4
+INCLUDE  ~Bodyguard/Components/Khalid_The_MilitiaOfficer.tpa~

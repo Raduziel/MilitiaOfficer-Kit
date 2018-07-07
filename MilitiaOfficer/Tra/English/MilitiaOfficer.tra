@@ -1,0 +1,101 @@
+/* ===================== *
+ *    Militia Officer    *
+ * ===================== */
+@101 = ~militia officer~
+@102 = ~Militia Officer~
+@103 = ~MILITIA OFFICER: .
+
+Advantages:
+
+- May use the Hold the Line ability. Gains one use at level 2 and another one every four levels, up to five uses at level 18.
+- May use the Last Stand ability. Gains one use at level 10 and another one every five levels, up to three uses at level 20.
+- May use the Second Wind ability. Gains one use at level 1 and another one every four levels, up to five uses at level 17.
+- May use the Charge ability. Gains one use at level 1 and another one every four levels, up to five uses at level 17.
+- May use the Inspire ability. Gains one use at level 3 and another one every two levels, up to five uses at level 11.
+- May use the Cover ability. Gains one use at level 1 and another one every two levels, up to five uses at level 9.
+
+CHARGE:
+
+The Militia Officer gathers strength and charges an enemy. This ability doubles the Officer's movement rate and increases its attack per round by 0.5. When this ability effect ends <PRO_HESHE> will be fatigued.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
+
+COVER:
+
+The Militia Officer covers an ally giving it a +3 bonus to Armor Class.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
+
+The Militia Officer can't Cover <PRO_HIMHER>self.
+
+INSPIRE:
+
+The Militia Officer inspires an ally giving it a +3 bonus to damage, hit and saving throws. Besides those benefits, the target becomes immune to non-magical moral breaks for the duration of the effects.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
+
+The Militia Officer can't Inspire <PRO_HIMHER>self.
+
+LAST STAND:
+
+The Militia Officer holds a firmly defensive position. This ability gives the Militia Officer +30% bonus to its damage and magic resistance and a +10 bonus to Armor Class. When this ability effect ends <PRO_HESHE> will be fatigued.
+
+The effects last for 1 turn.
+
+HOLD THE LINE:
+
+The Militia Officer protects a position at any cost. This ability gives the Militia Officer a +5 bonus to Armor Class and saving throws. While this ability is in effect the Militia Officer cannot move and after the duration <PRO_HESHE> will be fatigued.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
+
+SECOND WIND:
+
+The Militia Officer concentrates and takes a deep breath, getting rid of any fatigue that <PRO_HESHE> has accumulated.
+
+Disadvantages:
+
+- Requires at least 9 Intelligence and Charisma.
+- Can only become specialist (two slots) in missile weapons.
+- Cannot use Katana, Scimitar, Wakizashi, and Ninja-To.
+- Alignment restricted to non-Chaotic.~
+@104 = ~Inspire~
+@105 = ~Inspire
+
+Gives an ally a +3 bonus to damage, hit and save throws. Besides those benefits the target becomes immune to non-magical moral breaks for the duration of the effects.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
+
+The Militia Officer can't Inspire <PRO_HIMHER>self.~
+@106 = ~Cover~
+@107 = ~Cover
+
+Gives an ally a +3 bonus to Armor Class.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
+
+The Militia Officer can't Cover <PRO_HIMHER>self.~
+@108 = ~Charge~
+@109 = ~Charge
+
+This ability doubles the Officer's movement rate and increases its attack per round by 0.5. When this ability effect ends the Militia Officer will be fatigued.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.~
+@110 = ~Hold the Line~
+@111 = ~Hold the Line
+
+This ability gives the Militia Officer a +5 bonus to Armor Class and saving throws. While this ability is in effect the Militia Officer cannot move and after the duration it will be fatigued.
+
+The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.~
+@112 = ~Last Stand~
+@113 = ~Last Stand
+
+This ability gives the Militia Officer +30% bonus to its damage and magic resistance and a +10 bonus do Armor Class. When this ability effect ends the Militia Officer will be fatigued.
+
+The effects last for 1 turn.~
+@114 = ~Second Wind~
+@115 = ~With this ability the Militia Officer can get rid of any fatigue that <PRO_HIMHER> has accumulated.~
+@116 = ~You can't Inspire yourself~
+@117 = ~You can't Cover yourself~
+@118 = ~Inspired~
+@119 = ~Covered~
+// EoF

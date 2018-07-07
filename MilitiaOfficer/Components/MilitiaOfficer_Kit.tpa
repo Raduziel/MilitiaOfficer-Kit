@@ -1,0 +1,86 @@
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+//
+//						             Militia Officer
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+
+ADD_KIT ~RAMili~
+    ~RAMili 1 1 1 1 1 1 1 1~
+    ~RAMili 5 5 5 5 5 5 5 2 5 5 5 5 5 0 0 5 5 5 5 5 5 5 5 2 2 2 2 2 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+	~RAMili 9 3 3 9 3 9~
+	~RAMili 0 0 0 0 0 0~
+	~RAMili 9 3 3 9 3 9~
+    ~RAMili 9 3 3 9 3 9~
+	~RAMili 1 1 1 1 1 1 0 0 0~
+	~RAMili 0 1 1 1 1 1~
+	~MilitiaOfficer\Tables\RAMili.2da~
+	~K_F_H   K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~
+	~0x00000001 2~
+	~Fi0~
+	~PLAT16 SHLD31 HELM07 * RING39 RING29 CLCK26 BOOT04 AMUL27 BRAC16 BELT10 * * * * * * SW1H54 WAFLAIL *~
+	SAY @101
+	SAY @102
+	SAY @103
+
+LAF fl#add_kit_ee
+	STR_VAR
+		kit_name = ~RAMili~
+END
+
+COPY ~MilitiaOfficer\Spl\RAMiliF.spl~ ~override~
+	LPF ALTER_EFFECT INT_VAR match_parameter1 = 1 match_opcode = 206 parameter1 = RESOLVE_STR_REF (@116) END
+	LPF ALTER_EFFECT INT_VAR match_parameter1 = 2 match_opcode = 206 parameter1 = RESOLVE_STR_REF (@117) END
+
+COPY ~MilitiaOfficer\Spl\RAMiliIn.spl~ ~override~ SAY NAME1 @104 SAY UNIDENTIFIED_DESC @105
+	LPF ALTER_EFFECT INT_VAR match_parameter1 = 1 match_opcode = 139 parameter1 = RESOLVE_STR_REF (@118) END
+
+COPY ~MilitiaOfficer\Spl\RAMiliCo.spl~ ~override~ SAY NAME1 @106 SAY UNIDENTIFIED_DESC @107
+	LPF ALTER_EFFECT INT_VAR match_parameter1 = 1 match_opcode = 139 parameter1 = RESOLVE_STR_REF (@119) END
+
+COPY ~MilitiaOfficer\Spl\RAMiliCh.spl~ ~override~ SAY NAME1 @108 SAY UNIDENTIFIED_DESC @109
+
+COPY ~MilitiaOfficer\Spl\RAMiliHo.spl~ ~override~ SAY NAME1 @110 SAY UNIDENTIFIED_DESC @111
+
+COPY ~MilitiaOfficer\Spl\RAMiliLa.spl~ ~override~ SAY NAME1 @112 SAY UNIDENTIFIED_DESC @113
+
+COPY ~MilitiaOfficer\Spl\RAMiliSe.spl~ ~override~ SAY NAME1 @114 SAY UNIDENTIFIED_DESC @115
+
+ACTION_FOR_EACH file IN ~RAMOCH~ ~RAMOCO~ ~RAMOHL~ ~RAMOIN~ ~RAMOLS~ ~RAMOSW~ BEGIN
+COPY ~MilitiaOfficer\Bam\%file%.bam~ ~override~
+    LPF UPDATE_PVRZ_INDICES
+    RET
+      original_base_index
+      new_base_index
+    END
+
+  ACTION_IF (original_base_index >= 0 AND new_base_index >= 0) BEGIN
+    LAF INSTALL_PVRZ
+    INT_VAR
+      original_base_index
+      new_base_index
+    STR_VAR
+      source_file = EVAL ~MilitiaOfficer\Bam\MOS%original_base_index%.pvrz~
+    END
+  END
+END
+
+COPY_EXISTING_REGEXP ~.*\.itm~ override
+	READ_BYTE 0x31 proficiency
+	PATCH_MATCH proficiency WITH 
+		94 95 BEGIN
+		  LPF ADD_ITEM_EQEFFECT
+			INT_VAR
+			  opcode = 319
+			  target = 1
+			  parameter1 = (RAMili + 0x4000)
+			  parameter2 = 9
+			  timing = 2
+			  special = RESOLVE_STR_REF (@102)
+		  END
+		END
+		DEFAULT
+	END
+BUT_ONLY
+
+//EoF

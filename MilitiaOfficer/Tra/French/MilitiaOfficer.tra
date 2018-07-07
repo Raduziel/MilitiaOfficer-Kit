@@ -1,0 +1,98 @@
+// -*- coding: utf-8 -*- 
+/* ===================== *
+ *       Bodyguard       *
+ * ===================== */
+@101 = ~garde du corps~
+@102 = ~Garde du corps~
+@103 = ~GARDE DU CORPS : Plusieurs raisons peuvent conduire quelqu'un à devenir un garde du corps : l'argent, l'admiration, l'amour, voire la peur. Peu importent ses raisons, le garde du corps sera toujours le combattant le plus apte à garder les autres en vie et indemnes, même au péril de sa vie.
+
+Avantages :
+
+- Au niveau 2, il gagne la capacité Tenir bon, puis une utilisation supplémentaire tous les quatre niveaux, jusqu'à cinq au niveau 18.
+- Au niveau 10, il gagne la capacité Résistance ultime, puis une utilisation supplémentaire tous les cinq niveaux, jusqu'à trois au niveau 20.
+- Au niveau 1, il gagne la capacité Second souffle, puis une utilisation supplémentaire tous les quatre niveaux, jusqu'à cinq au niveau 17.
+- Au niveau 1, il gagne la capacité Charger, puis une utilisation supplémentaire tous les quatre niveaux, jusqu'à cinq au niveau 17.
+- Au niveau 3, il gagne la capacité Inspirer, puis une utilisation supplémentaire tous les deux niveaux, jusqu'à cinq au niveau 11.
+- Au niveau 1, il gagne la capacité Couvrir, puis une utilisation supplémentaire tous les deux niveaux, jusqu'à cinq au niveau 9.
+
+CHARGER :
+
+Le garde du corps rassemble ses forces et charge un adversaire. Cette capacité double sa vitesse de déplacement et lui accorde une demi-attaque supplémentaire par round. À expiration, il éprouvera une grande fatigue.
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.
+
+COUVRIR :
+
+Le garde du corps protège un allié en lui octroyant un bonus de 3 à sa classe d'armure.
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.
+Le garde du corps ne peut pas se couvrir lui-même.
+
+INSPIRER :
+
+Le garde du corps insuffle du courage à un allié en lui octroyant un bonus de 3 à ses jets de toucher, de dégâts et de sauvegarde. Par ailleurs, le bénéficiaire est immunisé aux pertes de moral non magiques pendant toute la durée des effets de cette capacité.
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.
+
+Le garde du corps ne peut pas s'inspirer lui-même.
+
+RÉSISTANCE ULTIME :
+
+Le garde du corps se campe sur une position fermement défensive. Cette capacité lui octroie un bonus de 30% à sa résistance aux dégâts et à la magie, ainsi qu'un bonus de 10 à sa classe d'armure. À expiration, il éprouvera une grande fatigue.
+
+Ces effets durent un tour.
+
+TENIR BON :
+
+Le garde du corps protège sa position à tout prix. Cette capacité lui octroie un bonus de 5 à sa classe d'armure et à ses jets de sauvegarde. En contrepartie, il ne peut pas bouger tant qu'elle est active, et il éprouvera une grande fatigue à expiration des effets.
+Ces effets durent un round par niveau, jusqu'à un maximum de rounds (1 tour) au niveau 10.
+
+SECOND SOUFFLE :
+
+Le garde du corps se concentre et prend une profonde respiration, se débarrassant de toute la fatigue qu'il a accumulée.
+
+
+Désavantages :
+
+- Nécessite au moins 9 en Intelligence et en Charisme.
+- Ne peut être que spécialiste (deux étoiles) dans le maniement des armes à distance.
+- Doit être d'alignement non chaotique.~
+@104 = ~Inspirer~
+@105 = ~Inspirer
+
+Octroie à un allié un bonus de 3 à ses jets de toucher, de dégâts et de sauvegarde. Par ailleurs, le bénéficiaire est immunisé aux pertes de moral non magiques pendant toute la durée des effets de cette capacité.
+
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.
+
+Le garde du corps ne peut pas s'inspirer lui-même.~
+@106 = ~Couvrir~
+@107 = ~Couvrir
+
+Cette capacité octroie un bonus de 3 à la classe d'armure d'un allié.
+
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.
+
+Le garde du corps ne peut pas se couvrir lui-même.~
+@108 = ~Charger~
+@109 = ~Charger
+
+Cette capacité double la vitesse de déplacement du garde du corps et lui accorde une demi-attaque supplémentaire par round. À expiration, il éprouvera une grande fatigue.
+
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.~
+@110 = ~Tenir bon~
+@111 = ~Tenir bon
+
+Cette capacité octroie au garde du corps un bonus de 5 à sa classe d'armure et à ses jets de sauvegarde. En contrepartie, il ne peut pas bouger tant qu'elle est active, et il éprouvera une grande fatigue à expiration des effets.
+
+Ces effets durent un round par niveau, jusqu'à un maximum de 10 rounds (1 tour) au niveau 10.~
+
+@112 = ~Résistance ultime~
+@113 = ~Résistance ultime
+
+Cette capacité octroie au garde du corps un bonus de 30% à sa résistance aux dégâts et à la magie, ainsi qu'un bonus de 10 à sa classe d'armure. À expiration, il éprouvera une grande fatigue.
+
+Ces effets durent un tour.~
+@114 = ~Second Souffle~
+@115 = ~Cette capacité permet au garde du corps de se débarrasser de toute la fatigue qu'il a accumulée.~
+@116 = ~Vous ne pouvez pas vous inspirer vous-même.~
+@117 = ~Vous ne pouvez pas vous couvrir vous-même.~
+@118 = ~inspiré~
+@119 = ~couvert~
+// EoF

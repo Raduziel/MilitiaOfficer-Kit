@@ -11,13 +11,13 @@ END
 ASK_EVERY_COMPONENT
 
 LANGUAGE ~English~
-		 ~Bodyguard/Tra/English~
-		 ~Bodyguard/Tra/English/setup.tra~
-		 ~Bodyguard/Tra/English/MilitiaOfficer.tra~
+		 ~MilitiaOfficer/Tra/English~
+		 ~MilitiaOfficer/Tra/English/setup.tra~
+		 ~MilitiaOfficer/Tra/English/MilitiaOfficer.tra~
 LANGUAGE ~Francais (traduction: Gwendolyne)~
          ~French~
-		 ~Bodyguard/Tra/French/setup.tra~
-		 ~Bodyguard/Tra/French/MilitiaOfficer.tra~
+		 ~MilitiaOfficer/Tra/French/setup.tra~
+		 ~MilitiaOfficer/Tra/French/MilitiaOfficer.tra~
 
 //__________________________________________________________________________________
 //__________________________________________________________________________________
@@ -27,7 +27,7 @@ LANGUAGE ~Francais (traduction: Gwendolyne)~
 //__________________________________________________________________________________
 
 BEGIN @1
-INCLUDE ~Bodyguard/Components/MilitiaOfficer_Kit.tpa~
+INCLUDE ~MilitiaOfficer/Components/MilitiaOfficer_Kit.tpa~
 
 //__________________________________________________________________________________
 //__________________________________________________________________________________
@@ -38,5 +38,5 @@ INCLUDE ~Bodyguard/Components/MilitiaOfficer_Kit.tpa~
 
 BEGIN @2
 REQUIRE_PREDICATE GAME_IS ~bgee eet~ @3
-REQUIRE_COMPONENT ~Bodyguard.tp2~ ~0~ @4
-INCLUDE  ~Bodyguard/Components/Khalid_The_MilitiaOfficer.tpa~
+REQUIRE_COMPONENT ~RAMili.2da~ ~0~ @4
+INCLUDE  ~MilitiaOfficer/Components/Khalid_The_MilitiaOfficer.tpa~

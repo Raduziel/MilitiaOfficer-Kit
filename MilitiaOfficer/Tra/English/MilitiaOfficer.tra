@@ -3,7 +3,7 @@
  * ===================== */
 @101 = ~militia officer~
 @102 = ~Militia Officer~
-@103 = ~MILITIA OFFICER: .
+@103 = ~MILITIA OFFICER: This fighter is, first and foremost, a defender of land and the people that live in it. More than a common soldier, the Militia Officer is a commander, someone who leads the way into a battle, inspire those around <PRO_HIMHER> and plan what to do next. It is <PRO_HISHER> duty to protect every person in the territory under <PRO_HISHER> authority, no matter the consequences.
 
 Advantages:
 
@@ -57,7 +57,7 @@ Disadvantages:
 - Requires at least 9 Intelligence and Charisma.
 - Can only become specialist (two slots) in missile weapons.
 - Cannot use Katana, Scimitar, Wakizashi, and Ninja-To.
-- Alignment restricted to non-Chaotic.~
+- Alignment restricted to Lawful Good, Neutral Good and Lawful Neutral.~
 @104 = ~Inspire~
 @105 = ~Inspire
 

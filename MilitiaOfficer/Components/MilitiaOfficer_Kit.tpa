@@ -12,7 +12,7 @@ ADD_KIT ~RAMili~
 	~RAMili 0 0 0 0 0 0~
 	~RAMili 9 3 3 9 3 9~
     ~RAMili 9 3 3 9 3 9~
-	~RAMili 1 1 1 1 1 1 0 0 0~
+	~RAMili 1 1 0 1 0 0 0 0 0~
 	~RAMili 0 1 1 1 1 1~
 	~MilitiaOfficer\Tables\RAMili.2da~
 	~K_F_H   K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~

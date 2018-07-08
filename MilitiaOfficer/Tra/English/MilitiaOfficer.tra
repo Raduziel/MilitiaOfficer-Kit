@@ -16,13 +16,13 @@ Advantages:
 
 CHARGE:
 
-The Militia Officer gathers strength and charges an enemy. This ability doubles the Officer's movement rate and increases its attack per round by 0.5. When this ability effect ends <PRO_HESHE> will be fatigued.
+The Militia Officer gathers strength and charges an enemy. This ability doubles the Officer's movement rate and increases <PRO_HISHER> attack per round by 0.5. When this ability effect ends <PRO_HESHE> will be fatigued.
 
 The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
 
 COVER:
 
-The Militia Officer covers an ally giving it a +3 bonus to Armor Class.
+The Militia Officer covers an ally giving them a +3 bonus to Armor Class.
 
 The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
 
@@ -30,7 +30,7 @@ The Militia Officer can't Cover <PRO_HIMHER>self.
 
 INSPIRE:
 
-The Militia Officer inspires an ally giving it a +3 bonus to damage, hit and saving throws. Besides those benefits, the target becomes immune to non-magical moral breaks for the duration of the effects.
+The Militia Officer inspires an ally giving them a +3 bonus to damage, hit and saving throws. Besides those benefits, the target becomes immune to non-magical moral breaks for the duration of the effects.
 
 The effects last for 1 Round/level, up to 10 rounds (1 turn) at level 10.
 

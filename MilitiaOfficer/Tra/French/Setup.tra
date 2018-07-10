@@ -1,10 +1,9 @@
 /* ===================== *
  *         SETUP         *
  * ===================== */
-@1 = ~Installer le profil de Garde du corps pour guerriers~ 
+@1 = ~Installer le profil de Garde du corps pour guerriers.~ 
 @2 = ~Khalid, Garde du corps.~
-@3 = ~Ce composant n'est disponible que pour BGEE et EET~
-@4 = ~Ce composant necessite le profil de Garde du corps~
+@3 = ~Impossible de trouver le profil ou le fichier de la creature. Le composant ne sera donc pas installe.~
 
 
 // WeiDU prompts

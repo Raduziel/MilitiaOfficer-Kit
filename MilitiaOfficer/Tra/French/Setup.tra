@@ -1,8 +1,8 @@
 /* ===================== *
  *         SETUP         *
  * ===================== */
-@1 = ~Installer le profil de Garde du corps pour guerriers.~ 
-@2 = ~Khalid, Garde du corps.~
+@1 = ~Installer le profil d'Officier de la milice pour guerriers.~ 
+@2 = ~Khalid, Officier de la milice.~
 @3 = ~Impossible de trouver le profil ou le fichier de la creature. Le composant ne sera donc pas installe.~
 
 
